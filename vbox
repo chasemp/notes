@@ -1,0 +1,48 @@
+    1  aptitude update
+    2  aptitude upgrade
+    3  ls
+    4  find / -name .git
+    5  cd /home/rush/.
+    6  ls
+    7  mount
+    8  mkdir share
+    9  echo ~
+   10  cd /r
+   11  ls
+   12  cd /root/
+   13  mkdir share
+   14  sudo mount -t vboxsf share ~/share
+   15  aptitude search vboxsf
+   16  ls
+   17  cd /media/cdrom/
+   18  ls
+   19  u
+   20  cd ../..
+   21  aptitude install git
+   22  mount /dev/sr0 /media/cdrom
+   23  cd /media/cdrom/
+   24  ls
+   25  sh ./VBoxLinuxAdditions.run
+   26  apt-get install dkms build-essential linux-headers-generic
+   27  sh ./VBoxLinuxAdditions.run
+   28  history
+   29  sudo mount -t vboxsf share ~/share
+   30  cd
+   31  ls
+   32  mv share/ host
+   33  sudo mount -t vboxsf share ~/host
+   34  ls
+   35  sudo mount -t vboxsf git /root/host
+   36  ls
+   37  cd host/
+   38  ls
+   39  cd wmf/puppet/
+   40  gs
+   41  git status
+   42  cd
+   43  git clone https://github.com/chasemp/settings.git
+   44  cd settings/
+   45  ls
+   46  bash setup.sh 
+   47  exit
+   48  history
